@@ -1,0 +1,8 @@
+<!-- footer.html -->
+{% block footer %}
+    {% if now %}
+    <p style="font-family: 微软雅黑;">当前时间：{{ now }}</p>
+    {% else %}
+    <p style="font-family: 微软雅黑;">本站内容均由个人整理，如有侵权请联系删除...</p>
+    {% endif %}
+{% endblock %}
